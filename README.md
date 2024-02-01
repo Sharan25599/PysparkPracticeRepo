@@ -37,8 +37,11 @@ select_multiple_col.py
  (df_selected1 = df.select("name", "age"))
 
 structType_structField.py
+
 -StructType: Represents the overall structure of the DataFrame, similar to a database table schema.
+
 -StructField:Represents an individual column within the DataFrame.
+            
              Defined by:
              name (string): Name of the column.
              dataType (DataType object): Data type of the column (e.g., IntegerType, StringType).
@@ -67,8 +70,10 @@ joins.py
 -Left Anti Join:  Returns all rows from the left DataFrame where there is no match in the right DataFrame.
 
 union_unionall.py
+
 union:Returns a new DataFrame containing unique rows from the input DataFrames.
       (df_combined = df1.union(df2))
+
 unionall: Returns a new DataFrame containing all rows from the input DataFrames, including duplicates.
           (df_combined_all = df1.unionAll(df2))
           
