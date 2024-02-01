@@ -55,10 +55,15 @@ structType_structField.py
 
 joins.py
 -Inner Join: Returns only the rows with matching keys in both DataFrames.
+
 -Left Join:  Returns all rows from the left DataFrame and matching rows from the right DataFrame.
+
 -Right Join: Returns all rows from the right DataFrame and matching rows from the left DataFrame.
+
 -Full Outer Join: Returns all rows from both DataFrames, including matching and non-matching rows.
+
 -Left Semi Join:  Returns all rows from the left DataFrame where there is a match in the right DataFrame.
+
 -Left Anti Join:  Returns all rows from the left DataFrame where there is no match in the right DataFrame.
 
 union_unionall.py
